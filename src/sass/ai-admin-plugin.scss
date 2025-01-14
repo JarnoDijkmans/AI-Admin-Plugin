@@ -1,0 +1,68 @@
+// Default styles that are needed for the editor.
+//@import "../../node_modules/@wordpress/components/build-style/style";
+//@import "../../node_modules/@wordpress/block-editor/build-style/style";
+
+// Default styles that are needed for the core blocks.
+//@import "../../node_modules/@wordpress/block-library/build-style/common";
+//@import "../../node_modules/@wordpress/block-library/build-style/style";
+//@import "../../node_modules/@wordpress/block-library/build-style/editor";
+
+.yai-admin-styles{
+    // Layout & componentss
+    //@import "external/bootstrap/bootstrap-reboot";
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    @import "external/bootstrap/functions";
+    @import "external/bootstrap/variables";
+    @import "external/bootstrap/variables-dark";
+    @import "external/bootstrap/maps";
+    @import "external/bootstrap/mixins";
+    @import "external/bootstrap/utilities";
+    @import "external/bootstrap/root";
+
+    @import "external/bootstrap/grid";
+    @import "external/bootstrap/forms";
+    @import "external/bootstrap/buttons";
+    @import "external/bootstrap/modal";
+    @import "external/bootstrap/tooltip";
+    @import "external/bootstrap/popover";
+
+    // Helpers
+    @import "external/bootstrap/helpers";
+
+    // Utilities
+    @import "external/bootstrap/utilities/api";
+}
+
+// scss-docs-end import-stack
+//@import "external/bootstrap/bootstrap-reboot";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@import "external/bootstrap/functions";
+@import "external/bootstrap/variables";
+@import "external/bootstrap/variables-dark";
+@import "external/bootstrap/maps";
+@import "external/bootstrap/mixins";
+@import "external/bootstrap/utilities";
+@import "external/bootstrap/root";
+
+@import "external/bootstrap/grid";
+@import "external/bootstrap/forms";
+@import "external/bootstrap/buttons";
+@import "external/bootstrap/tooltip";
+@import "external/bootstrap/popover";
+@import "external/bootstrap/modal";
+
+// Helpers
+@import "external/bootstrap/helpers";
+
+// Utilities
+@import "external/bootstrap/utilities/api";

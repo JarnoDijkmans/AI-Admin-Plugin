@@ -1,0 +1,1 @@
+import './blocks/yooker-ai-admin-blocks';
